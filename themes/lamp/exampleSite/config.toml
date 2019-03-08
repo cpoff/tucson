@@ -1,0 +1,58 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Tucson Footie"
+theme = "lamp"
+#googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
+
+[params]
+  subtitle = "Soccer in the Old Pueblo"
+  author = "Curt Poff"
+  logo = "/img/avatar.jpg"
+  description = "Following football in the Old Pueblo."
+  paginate = 3
+
+  # Publisher
+  ## adsensePublisher = "ca-pub-XXX"    # Required if you want to include Google Adsense
+  adsenseSlot = "XXX"                   # Required slot to display ads
+  adsenseSlotSticky = "XXX"             # Enables sticky ads feature, value maybe the same with adsenseSlot, remove if you don't want display sticky ads
+
+  # SEO configs
+  seotitle = "Tucson Football and Soccer"
+  googleSiteVerification = "google_site_verification_code"    # Google Webmaster
+  msValidate = "bing_site_verification_code"                  # Bing Webmaster
+
+  # Social networks
+  email = "curt.poff@gmail.com"
+  #github = "huyb1991"
+  twitter = "twitter_username"
+  #linkedin = "linkedin_username"
+  #facebook = "facebook_username"
+  #google = "googleplus_id_number"
+  instagram = "instagram_username"
+  #youtube = "youtube_username"
+  #dribbble = "dribbble_username"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = "About"
+  weight = 10
+  identifier = "about"
+  url = "/about/"
+[[menu.main]]
+  name = "Posts"
+  weight = 20
+  identifier = "post"
+  url = "/post/"
+[[menu.main]]
+  name = "Players"
+  weight = 40
+  identifier = "players"
+  url = "/players/"
+[[menu.main]]
+  name = "Tags"
+  weight = 50
+  identifier = "tags"
+  url = "/tags/"

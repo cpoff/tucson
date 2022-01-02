@@ -8,12 +8,12 @@ disqusShortname = "shortname"
 googleAnalytics = ""
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
-enableRobotsTXT = true
+enableRobotsTXT = false
 canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "Soccer in the Old Pueblo"
+  description          = "Tracking the beautiful sport in the Old Pueblo. Mostly FC Tucson."
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Tucson Footie"
   # Sets where "View More Posts" links
@@ -89,9 +89,9 @@ canonifyURLs = true
 [params.intro]
   header    = "Tucson Footie"
 
-  paragraph = "Soccer in the Old Pueblo"
+  paragraph = "Tracking the beautiful sport in the Old Pueblo."
 
-  about     = "Tucson Footie is a site focused on soccer/football in southern Arizona. It's independantly run by Curt Poff."
+  about     = "Tucson Footie is a site focused on soccer/football in southern Arizona."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.

@@ -1,5 +1,5 @@
 +++
-author = "Curt"
+author = "John Doe"
 categories = ["Soccer"]
 tags = ["Tucson", "football", "Tucson FC"]
 date = "2014-03-07"
